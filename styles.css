@@ -257,7 +257,6 @@ body {
   margin-right: 45px;
   text-align: justify;
 }
-/* addimage */
 .grid-container1{
 width: 100%;
 }
@@ -333,8 +332,123 @@ width: 49%;
 .work_section1{
   display: flex;
 }
+
+
 @media (max-width: 768px) {
   .grid-container {
     grid-template-columns: 1fr;
   }
 }
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 5%;
+  }
+  
+  .header h1 {
+    font-size: 200%;
+  }
+
+  .header h2 {
+    font-size: 110%;
+  }
+
+  .welcome {
+    font-size: 110%;
+    padding: 2%;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr; 
+    gap: 3%;
+  }
+
+  .section h3 {
+    font-size: 130%;
+  }
+
+  .full-width-section h3 {
+    font-size: 150%;
+  }
+  
+  .three-column-layout {
+    grid-template-columns: 1fr;
+    gap: 3%;
+  }
+  
+  .text-column p {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h3 {
+    font-size: 1.2em; 
+    margin-bottom: 0.8em;
+  }
+
+  p {
+    font-size: 0.9em; 
+    margin-top: 0.8em;
+  }
+  .container {
+    padding: 8%;
+  }
+
+  .header h1 {
+    font-size: 180%;
+  }
+
+  .header h2 {
+    font-size: 100%;
+  }
+
+  .welcome {
+    font-size: 100%;
+    padding: 3%;
+  }
+
+  .full-width-section h3 {
+    font-size: 140%;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr; 
+    gap: 5%;
+  }
+
+  .three-column-layout {
+    grid-template-columns: 1fr;
+    margin-top: 10%;
+  }
+
+  .text-column p {
+    font-size: 85%;
+    line-height: 150%;
+  }
+  
+  .image-column img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header h1 {
+    font-size: 150%;
+  }
+
+  .welcome {
+    font-size: 90%;
+  }
+
+  .section h3 {
+    font-size: 110%;
+  }
+
+  .text-column p {
+    font-size: 80%;
+    line-height: 140%;
+  }
+}
+
+
